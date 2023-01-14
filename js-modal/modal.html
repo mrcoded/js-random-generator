@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!-- Stylesheet-->
-    <link rel="stylesheet" href="/js-random/random.css">
+    <link rel="stylesheet" href="/js-dom/js-modal/modal.css">
     <!-- Global Font Links-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -19,7 +19,17 @@
 </head>
 <body>
 
+    <button id="open-btn">
+        <p>Where's Our Modal</p>
+    </button>
 
-<script src="modal.js"></script>
+    <div id="modal-container">
+        <div id="modal">
+            <p>Here I am</p>
+            <div id="close-btn">&times;</div>
+        </div>
+    </div>
+
+    <script src="modal.js"></script>
 </body>
 </html>
