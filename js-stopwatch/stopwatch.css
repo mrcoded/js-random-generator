@@ -2,7 +2,7 @@
 
 body {
     height: 100vh;
-    background: url(img) no-repeat center center/cover;
+    background: url(https://www.pixelstalk.net/wp-content/uploads/2016/03/Brilliant-wallpaper-desktop-Nice-background-620x349.jpg) no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -13,7 +13,8 @@ body {
     height: 250px;
     background-color: #fff;
     border-radius: 30px;
-    box-shadow: 0 0 3px;
+    box-shadow: 0 0 5px;
+    background: transparent;
 }
 
 #timer {
@@ -29,7 +30,7 @@ body {
 }
 
 button {
-    margin: 0 10px;
+    margin: 0px 10px;
     border: none;
 }
 
@@ -37,6 +38,7 @@ button i {
     font-size: 2rem;
     padding: 10px;
     color: #fff;
+    border-radius: 5px;
 }
 
 #play {
@@ -47,6 +49,6 @@ button i {
     background-color: orange;
 }
 
-#stop {
+#reset {
     background-color: red;
 }

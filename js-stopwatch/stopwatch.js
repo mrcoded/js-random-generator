@@ -52,8 +52,8 @@ function stopWatch() {
     }
     let displayTimer = document.getElementById("timer").innerText = 
     leadingHours + ":" +leadingMinutes + ":" + leadingSeconds;
+    console.log(displayTimer);
 }
-
 // window.setInterval(stopWatch, 1000);
 
 startStopBtn.addEventListener("click", function() {
@@ -63,10 +63,10 @@ startStopBtn.addEventListener("click", function() {
         `<i class="fa-solid fa-pause" id="pause"></li>`;
         timerStatus = "started";
     } else {
-        window,clearInterval(timerInterval);
+        window.clearInterval(timerInterval);
         document.getElementById("startStopBtn").innerHTML = 
-        `<li class="fa-solid fa-play" id="play"></i>`;
-        timerInterval = "stopped";
+        `<i class="fa-solid fa-play" id="play"></i>`;
+        timerStatus = "stopped";
     }
 });
 
