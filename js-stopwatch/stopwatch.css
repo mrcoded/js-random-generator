@@ -22,7 +22,7 @@ body {
     font-size: 72px;
     text-align: center;
     margin: 0px auto;
-    padding: 35px;
+    padding: 35px 0 35px;
 }
 
 .buttons {
@@ -52,3 +52,74 @@ button i {
 #reset {
     background-color: red;
 }
+
+/* mobile breakpoint */
+@media screen and (max-width: 500px) {
+    .container {
+        width: 70%;
+        height: 250px;
+        background-color: #fff;
+        border-radius: 30px;
+        box-shadow: 0 0 5px;
+        background: transparent;
+    }
+    
+    #timer {
+        width: 100%;
+        font-size: 52px;
+        text-align: center;
+        margin: 0px auto;
+        /* padding: 30px 0px 30px; */
+    }
+    
+    .buttons {
+        text-align: center;
+    }
+    
+    button {
+        margin: 0px 10px;
+        border: none;
+    }
+    
+    button i {
+        font-size: 2rem;
+        padding: 10px;
+        color: #fff;
+        border-radius: 5px;
+    }    
+}
+
+ @media screen and (min-width: 300px) {
+    .container {
+        width: 70%;
+        height: 200px;
+        background-color: #fff;
+        border-radius: 30px;
+        box-shadow: 0 0 5px;
+        background: transparent;
+    }
+    
+    #timer {
+        width: 100%;
+        font-size: 52px;
+        text-align: center;
+        margin: 0px auto;
+        /* padding: 30px 0px 30px; */
+    }
+    
+    .buttons {
+        text-align: center;
+    }
+    
+    button {
+        margin: 0px 10px;
+        border: none;
+    }
+    
+    button i {
+        font-size: 1.4rem;
+        padding: 10px;
+        color: #fff;
+        border-radius: 5px;
+    }   
+  } 
