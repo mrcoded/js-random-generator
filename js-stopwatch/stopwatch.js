@@ -52,7 +52,7 @@ function stopWatch() {
     }
     let displayTimer = document.getElementById("timer").innerText = 
     leadingHours + ":" +leadingMinutes + ":" + leadingSeconds;
-    console.log(displayTimer);
+    // console.log(displayTimer);
 }
 // window.setInterval(stopWatch, 1000);
 
