@@ -16,6 +16,7 @@ body {
     border-radius: 20px;
     box-shadow: 0 0 3px;
     display: flex;
+    margin-bottom: 20px;
 }
 
 input {
@@ -41,3 +42,54 @@ input {
     color: #fff;
 }
 
+/* //Styling for task which gets added to the todo list */
+
+.task {
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 3px;
+
+    padding: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.task li {
+    list-style: none;
+    flex: 4;
+    padding: 5px;
+    font-size: 1.3rem;
+    margin: 10px;
+}
+
+.task-button {
+    flex: 1;
+    cursor: pointer;
+    border-radius: 10px;
+    background-color: #fff;
+}
+
+.task .checkTask {
+    color: orange;
+    margin-right: 5px;
+    border: solid 2px orange;
+    font-size: 1.5rem;
+}
+
+.task .checkTask:hover {
+    color: #fff;
+    background-color: orange;
+}
+
+.task .deleteTask {
+    color: red;
+    border: solid 2px red;
+    font-size: 1.5rem;
+}
+
+.task .deleteTask:hover {
+    color: white;
+    background-color: red;
+}
