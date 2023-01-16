@@ -93,3 +93,27 @@ input {
     color: white;
     background-color: red;
 }
+
+@media screen and (min-width: 300px) {
+    
+#add-task-container {
+    width: 295px;
+    padding: 20px 7px;
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0 0 3px;
+    display: flex;
+    margin-bottom: 20px;
+}
+.task {
+    width: 97%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 3px;
+
+    padding: 5px;
+    margin-bottom: 5px;
+    display: flex;
+    justify-content: space-between;
+}
+  } 
